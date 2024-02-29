@@ -41,6 +41,52 @@ int main(){
         cout << "Nota final: A" << endl;
     }
 
+    // Operadores lógicos: E: && , OU: || , Não: !
+    float freq;
+    cout << "Qual e a frequencia do aluno? " << endl;
+    cin >> freq;
+
+        // Exemplo usando: E: &&
+    // if (media >=5 && freq >=75){
+    //     cout << "Aluno aprovado!" << endl;
+    // } else{
+    //     cout << "Aluno Reprovado!" << endl;
+    // }
+
+        // Exemplo usando: OU: ||
+    // if (media <5 || freq <75){
+    //     cout << "Aluno reprovado" << endl;
+    // } else{
+    //     cout << "Aluno aprovado" << endl;
+    // }
+    // return 0;
+
+    // Operador Ternário
+    (media >=5) ? cout << "Aprovado" : cout << "Reprovado";
+    
+    // Operadores lógicos: E: && , OU: || , Não: !
+    float freq;
+    cout << "Qual e a frequencia do aluno? " << endl;
+    cin >> freq;
+
+        // Exemplo usando: E: &&
+    // if (media >=5 && freq >=75){
+    //     cout << "Aluno aprovado!" << endl;
+    // } else{
+    //     cout << "Aluno Reprovado!" << endl;
+    // }
+
+        // Exemplo usando: OU: ||
+    // if (media <5 || freq <75){
+    //     cout << "Aluno reprovado" << endl;
+    // } else{
+    //     cout << "Aluno aprovado" << endl;
+    // }
+    // return 0;
+
+    // Operador Ternário
+    (media >=5) ? cout << "Aprovado" : cout << "Reprovado";
+
     return 0;
 }
 
