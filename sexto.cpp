@@ -9,7 +9,7 @@ int main(){
     cin >> n;
 
     int soma=0;
-    int cont=1;
+    // int cont=1;
     
         // Estrutura de repetição com WHILE
     // while (cont <= n){
