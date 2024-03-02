@@ -7,10 +7,10 @@ using namespace std;
 
 float f(float x){
     
-   float v;
-    v = x*x - 3*x + 5;
+   float valor;
+    valor = x*x - 3*x + 5;
 
-    return v;
+    return valor;
 }
 
 int main(){
@@ -18,8 +18,9 @@ int main(){
     cout << "Digite um numero real: \n";
     cin >> a;
 
-    float valorf = f(a);
+    float valorfun = f(a);
 
-    cout << "O valor da funcao no ponto " << a << " e igual a: " << valorf << endl;
+    cout << "O valor da funcao no ponto " << a << " e igual a: " << valorfun << endl;
 
+    return 0;
 }
