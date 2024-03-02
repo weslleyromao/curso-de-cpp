@@ -2,7 +2,8 @@
 
 using namespace std;
 
-    //  f(x) = x^2 - 3x +5.
+    // f(x) = x^2 - 3x +5.
+    // Crie um Algoritmo em C++, que tenha uma função que calcula o valor de "f(a)", em que "a" é um número real informado pelo usuário.
 
 float f(float x){
     
