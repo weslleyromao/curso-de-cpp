@@ -17,7 +17,7 @@ int main(){
     cout << "Informe seu salario: ";
     cin >> salario;
 
-    if (idade >=21 && salario >=1200){
+    if (idade >=21 && salario <= 1200){
         cout << "Voce pode participar do nosso programa de casas populares!";
     } else{
         cout << "Voce nao esta no padrao do nosso programa de casas populares!" << endl;;
