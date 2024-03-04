@@ -2,6 +2,11 @@
 
 using namespace std;
 
+    // Crie um Algoritmo em C++, que calcula a potência B elevado a E, em que o usário 
+    // informa um número real "B" e um número natural "E". Nesse algoritmo, sempre que 
+    // é informado o resultado da pôtencia, é porguntando ao usuário, se este deseja 
+    // calcular outra pôtencia.
+
 float poten(float b, float e){
     float base = 1;
     for (int i= 1; i<=e ; i++){
@@ -27,7 +32,7 @@ int main(){
     cout << "O resultado da potencia na base " << base << " com expoente " << expoente << " e de: " << resultadoP << endl;
     
     int questionar = 1;
-    cout << "digite 1 se quiser calcular mais uma potenciacao, se não digite 0 que finalizara o programa. \n";
+    cout << "digite 1 se quiser calcular mais uma potenciacao, se nao digite 0. \n";
     cin >> questionar;
     if (questionar == 0){
         break;
