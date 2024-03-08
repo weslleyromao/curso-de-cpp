@@ -44,6 +44,7 @@ int main(){
     for (int i=0 ; i<tamanho ; i++){
         cout << vetor[i] << " ";
     }
-    
+
+    delete [] vetor; 
     return 0;
 }
