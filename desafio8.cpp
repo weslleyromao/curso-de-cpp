@@ -15,7 +15,7 @@ int main(){
 
     *media = (*idade1+*idade2)/2;
 
-    cout << "Media da idade entre essas pessoas e de: " << *media;
+    cout << "Media das idades e de: " << *media;
 
     return 0;
 }
